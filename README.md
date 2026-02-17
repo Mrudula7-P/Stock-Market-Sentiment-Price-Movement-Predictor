@@ -6,7 +6,7 @@ This project aims to predict the next-day stock price movement (Up or Down) by c
 
 The objective is to demonstrate how structured financial data and sentiment signals can be leveraged together to forecast stock price direction using supervised learning techniques.
 
-Problem Statement
+# Problem Statement
 
 Stock prices are influenced by both historical trading patterns and external sentiment. Traditional technical analysis focuses on price and volume trends, while sentiment analysis captures market psychology.
 
@@ -20,7 +20,7 @@ Engineers technical indicators
 
 Predicts whether the stock price will increase or decrease the next trading day
 
-Dataset Description
+# Dataset Description
 
 The dataset includes the following features:
 
@@ -40,7 +40,7 @@ change_prev_close_percentage – Percentage change from previous close
 
 Sentiment – Sentiment score associated with market information
 
-Feature Engineering
+# Feature Engineering
 
 Additional features were created to enhance predictive performance:
 
@@ -58,7 +58,7 @@ Target Variable – Binary classification label
 
 Data was sorted chronologically to preserve time-series structure, and missing values were handled appropriately.
 
-Machine Learning Model
+# Machine Learning Model
 
 The project uses a Random Forest Classifier for prediction.
 
@@ -72,7 +72,7 @@ Performs well on structured financial datasets
 
 Provides feature importance analysis
 
-Model Evaluation
+# Model Evaluation
 
 Model performance was evaluated using:
 
@@ -88,7 +88,7 @@ F1-Score
 
 Feature importance was analyzed to understand the contribution of each engineered variable.
 
-Project Workflow
+# Project Workflow
 
 Data loading and preprocessing
 
@@ -108,7 +108,7 @@ Prediction and performance evaluation
 
 Feature importance visualization
 
-Technologies Used
+# Technologies Used
 
 Python
 
@@ -122,7 +122,7 @@ Matplotlib
 
 Seaborn
 
-Key Insights
+# Key Insights
 
 Technical indicators such as moving averages significantly influence predictive performance.
 
@@ -130,7 +130,7 @@ Sentiment features add contextual value when combined with structured market dat
 
 Time-aware data splitting is critical in financial machine learning tasks.
 
-Future Enhancements
+# Future Enhancements
 
 Incorporate additional technical indicators such as RSI and MACD
 
@@ -142,7 +142,7 @@ Deploy the model using Streamlit or Flask
 
 Integrate real-time news scraping for dynamic sentiment scoring
 
-Learning Outcomes
+# Learning Outcomes
 
 Financial time-series preprocessing
 
